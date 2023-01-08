@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.namecard{
+
+    background-color: rgb(67, 67, 68);
+ 
+}
+
+
+
+container{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  scroll-snap-align: start;
+
+}
+
+.firstcard{
+ width: 100%;
+ position: relative;
+margin: -25px 0 0 -25px;
+}
+
+
+html{
+    scroll-snap-type: y mandatory;
+    position: relative;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+.homediv{
+    width: 100%;
+    height: 100%;
+
+
+}
+
+
+
+
+/*Scroll Bar*/
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    display: none;  
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(70, 70, 70); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #696969; 
+  }
+
+ 
