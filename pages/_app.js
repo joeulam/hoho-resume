@@ -18,39 +18,42 @@ export default function Home() {
         </div>
 
         <div class="projectcon">
+          <a href="https://cyberskyline.com/report/R5J1L7YN0BP8">
           <div class="ncl">
           
               <img src="https://www.alamancecc.edu/computer-information-technology-department-site/files/2020/02/ncl-logo.png"></img> 
-            
-              <div class="hidden">
-                <h1>NCL Fall 2022</h1><br/>
+                <h1>NCL Fall 2022</h1>
                 <h2>Individual Game</h2>
                 <h3>Ranked 1159th place</h3>
-              </div>
-          
-            
-          </div>
-          
 
+          </div>
+          </a>
+
+          <a href="https://cyberskyline.com/report/86KN6BY4P0E2">
           <div class="ncl">
             <img src="https://www.alamancecc.edu/computer-information-technology-department-site/files/2020/02/ncl-logo.png"></img> 
-            
-            <div class="hidden">
-              <h1>NCL Fall 2022 Team Game</h1>
-              
+              <h1>NCL Fall 2022</h1>
+              <h2>Team Game</h2>
               <h3>Ranked 1159th place</h3>
-            </div>
           </div>
-          
+          </a>
+          <a href="https://www.freecodecamp.org/certification/joeulam/responsive-web-design">
           <div class="ncl">
-            <img src="https://www.alamancecc.edu/computer-information-technology-department-site/files/2020/02/ncl-logo.png"></img> 
-            
-            <div class="hidden">
-              <h1>NCL Fall 2022 Individual Game</h1>
-              <h3>Ranked 1159th place</h3>
-            </div>
+            <img src="https://design-style-guide.freecodecamp.org/downloads/fcc_secondary_small.svg"></img> 
+              <h1>Reponsive Web Design</h1>
+              <h2>Certificate</h2>
+              <h3>Freecodecamp</h3>
           </div>
+          </a>
 
+          <a href="https://www.credly.com/badges/aa30c2a7-1819-47bf-a099-bb72ec1b97cf?source=linked_in_profile">
+          <div class="ncl">
+            <img src="https://images.credly.com/size/680x680/images/73e4a58b-a8ef-41a3-a7db-9183dd269882/image.png"></img> 
+              <h1>Cloud Foundations</h1>
+              <h2>Academy Graduate</h2>
+              <h3>AWS</h3>
+          </div>
+          </a>
 
         </div>
       </container>
