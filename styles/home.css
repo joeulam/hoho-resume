@@ -9,7 +9,7 @@
     background-color: rgb(67, 67, 68);
  
 }
-
+ 
 
 
 container{
@@ -97,10 +97,27 @@ html{
     width: 100%;
     height: 100%;
 
+    animation: fadein 1s;
+    -webkit-animation: fadein 1s; /* Safari and Chrome */
 
 }
 
-
+@keyframes fadein {
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
 
 
 /*Scroll Bar*/

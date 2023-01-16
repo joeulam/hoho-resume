@@ -61,6 +61,9 @@ export default function Home() {
       <container class="namecard">
         Im currently working on
       </container>
+      <div class="projectcon">
+        
+      </div>
 
       <footer>
         <div class="con1">
