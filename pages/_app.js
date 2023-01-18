@@ -2,10 +2,11 @@ import css from '../styles/home.css'
 
 export default function Home() {
   return (
+    
     <div class="homediv">
 
       <container class="namecard">
-        <div class="firstcard">
+        <div class="firstcard" id="title">
           <h1>Joey Lam</h1>
           <h3>A programmer and a student</h3>
         </div>
@@ -16,7 +17,7 @@ export default function Home() {
         <div class="firstcard">
           <h2>Here is some of my achivements</h2>
         </div>
-
+        
         <div class="projectcon">
           <a href="https://cyberskyline.com/report/R5J1L7YN0BP8">
           <div class="ncl">
@@ -60,10 +61,21 @@ export default function Home() {
 
       <container class="namecard">
         Im currently working on
-      </container>
-      <div class="projectcon">
-        
+        <div class="projectcon">
+        <div class="ncl">
+          <h1>Moogan</h1>
+          <h2>2D parkour game</h2>
+          <h3>Using Unity</h3>
+        </div>
+        <div class="ncl">
+          <h1>Joey's profolio</h1>
+          <h2>Contains all of my projects</h2>
+          <h3>Using nextjs and css</h3>
+        </div>
       </div>
+
+      </container>
+      
 
       <footer>
         <div class="con1">
@@ -80,5 +92,19 @@ export default function Home() {
   )
     
     
-   
+  
+}
+if (typeof window !== "undefined") {
+
+const mouseWheel = document.querySelector('.projectcon');
+
+  mouseWheel.addEventListener('wheel', function(e) {
+      const race = 12; // How many pixels to scroll
+  
+      if (e.deltaY > 0) // Scroll right
+          mouseWheel.scrollLeft += race;
+      else // Scroll left
+          mouseWheel.scrollLeft -= race;
+      e.preventDefault();
+  });
 }

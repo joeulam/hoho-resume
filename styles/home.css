@@ -43,6 +43,11 @@ container{
 margin: -25px 0 0 -25px;
 }
 
+#title{
+  font-size: 30px;
+
+}
+
 .projectcon{
   border: white;
   border-style: solid;
