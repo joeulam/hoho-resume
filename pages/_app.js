@@ -12,23 +12,34 @@ export default function Home() {
         </div>
         
       </container>
+
       
+
       <container class="namecard">
         <div class="firstcard">
           <h2>Here is some of my achivements</h2>
         </div>
         
-        <div class="projectcon">
-          <a href="https://cyberskyline.com/report/R5J1L7YN0BP8">
-          <div class="ncl">
-          
+        <div class="card">
+          <div class="limg">
+            <a href="https://cyberskyline.com/report/R5J1L7YN0BP8">
               <img src="https://www.alamancecc.edu/computer-information-technology-department-site/files/2020/02/ncl-logo.png"></img> 
+            </a>
+          </div>
+        
+          <div class="cleft">
+          
                 <h1>NCL Fall 2022</h1>
                 <h2>Individual Game</h2>
                 <h3>Ranked 1159th place</h3>
 
           </div>
-          </a>
+          
+      </div>
+        
+
+        <div class="projectcon">
+          
 
           <a href="https://cyberskyline.com/report/86KN6BY4P0E2">
           <div class="ncl">
