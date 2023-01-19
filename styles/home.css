@@ -137,7 +137,7 @@ a{
 
 
 html{
-    /*scroll-snap-type: y mandatory;*/
+    scroll-snap-type: y mandatory;
     position: relative;
     overflow-y: scroll;
     scroll-behavior: smooth;
