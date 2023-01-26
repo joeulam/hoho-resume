@@ -5,8 +5,9 @@
   }
 
 .namecard{
+  margin-left: -35vh;
+  margin-top: -15vh;
 
- 
 }
  
 
@@ -49,7 +50,6 @@ container{
 .firstcard{
  width: 100%;
  position: relative;
-margin: -25px 0 0 -25px;
 }
 
 #title{
@@ -87,7 +87,7 @@ margin: -25px 0 0 -25px;
   width: 40%;
   height: 30%;
   overflow: auto;
-
+  margin-right: 50vh;
 
 }
 .card img{
@@ -199,4 +199,3 @@ html{
     background: #696969; 
   }
 
- 

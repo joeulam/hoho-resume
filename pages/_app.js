@@ -1,4 +1,5 @@
 import css from '../styles/home.css'
+import Typewriter from 'typewriter-effect';
 
 export default function Home() {
   return (
@@ -6,11 +7,29 @@ export default function Home() {
     <div class="homediv">
 
       <container class="namecard">
-        <div class="firstcard" id="title">
-          <h1>Joey Lam</h1>
-          <h3>A programmer and a student</h3>
+        <div class="firstcard anim-typewriter" id="title">
+          <h1>Hi my name is Joey Lam</h1>
+        <Typewriter
+        options={{
+          strings: ['developer', 'student'],
+          loop: true,
+        }}
+          onInit={(typewriter) => {
+          typewriter.typeString('I am an developer')
+            .pauseFor(3500)
+            .changeDeleteSpeed(52)
+            .deleteChars(9)
+            .typeString("student")
+            .pauseFor(2500)
+            .deleteChars(7)
+            .start();
+        }}
+      />
+      
+
+          
         </div>
-        
+        <img src="https://media.licdn.com/dms/image/C4D03AQHowURH-t-2Lw/profile-displayphoto-shrink_800_800/0/1630705339404?e=1680134400&v=beta&t=wcuwycLZM1R_rbI4WZDd0LvyH8vmlMDPSsCVboRtrR8"></img>
       </container>
 
       <container>
@@ -56,7 +75,7 @@ export default function Home() {
 
 
 
-      <container class="namecard">
+      <container class="">
         
         
         
@@ -87,7 +106,7 @@ export default function Home() {
         </div>
       </container>
 
-      <container class="namecard">
+      <container class="">
         Im currently working on
         <div class="projectcon">
         <div class="ncl">
