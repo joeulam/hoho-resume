@@ -7,7 +7,7 @@ export default function Home() {
     <div class="homediv">
 
       <container class="namecard">
-        <div class="firstcard anim-typewriter" id="title">
+        <div class="firstcard" id="title">
           <h1>Hi my name is Joey Lam</h1>
         <Typewriter
         options={{
@@ -29,7 +29,10 @@ export default function Home() {
 
           
         </div>
-        <img src="https://media.licdn.com/dms/image/C4D03AQHowURH-t-2Lw/profile-displayphoto-shrink_800_800/0/1630705339404?e=1680134400&v=beta&t=wcuwycLZM1R_rbI4WZDd0LvyH8vmlMDPSsCVboRtrR8"></img>
+        <div>
+        
+    
+        </div>
       </container>
 
       <container>
