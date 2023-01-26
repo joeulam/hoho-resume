@@ -13,13 +13,13 @@ export default function Home() {
         
       </container>
 
-      
-
-      <container class="namecard">
+      <container>
         <div class="firstcard">
           <h2>Here is some of my achivements</h2>
         </div>
-        
+      </container>
+
+      <container>
         <div class="card">
           <div class="limg">
             <a href="https://cyberskyline.com/report/R5J1L7YN0BP8">
@@ -32,23 +32,40 @@ export default function Home() {
                 <h1>NCL Fall 2022</h1>
                 <h2>Individual Game</h2>
                 <h3>Ranked 1159th place</h3>
-
-          </div>
-          
+          </div>  
       </div>
+      </container>
+
+
+
+      <container>
+      <div class="card">
+          <div class="limg">
+            <a href="https://cyberskyline.com/report/86KN6BY4P0E2">
+                <img src="https://www.alamancecc.edu/computer-information-technology-department-site/files/2020/02/ncl-logo.png"></img>   
+            </a>
+        </div>
+          <div class="cleft">
+            <h1>NCL Fall 2022</h1>
+            <h2>Team Game</h2>
+            <h3>Ranked 1159th place</h3>
+          </div>
+                
+        </div>
+      </container>
+
+
+
+      <container class="namecard">
+        
+        
+        
         
 
         <div class="projectcon">
           
 
-          <a href="https://cyberskyline.com/report/86KN6BY4P0E2">
-          <div class="ncl">
-            <img src="https://www.alamancecc.edu/computer-information-technology-department-site/files/2020/02/ncl-logo.png"></img> 
-              <h1>NCL Fall 2022</h1>
-              <h2>Team Game</h2>
-              <h3>Ranked 1159th place</h3>
-          </div>
-          </a>
+          
           <a href="https://www.freecodecamp.org/certification/joeulam/responsive-web-design">
           <div class="ncl">
             <img src="https://design-style-guide.freecodecamp.org/downloads/fcc_secondary_small.svg"></img> 
