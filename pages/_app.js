@@ -5,6 +5,12 @@ export default function Home() {
   return (
     
     <div class="homediv">
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+      </style>
+
+
+
 
       <container class="namecard">
         <div class="firstcard" id="title">
@@ -35,6 +41,8 @@ export default function Home() {
         </div>
       </container>
 
+
+
       <container>
         <div class="firstcard">
           <h2>Here is some of my achivements</h2>
@@ -42,7 +50,7 @@ export default function Home() {
       </container>
 
       <container>
-        <div class="card">
+        <div class="card" id ="c1">
           <div class="limg">
             <a href="https://cyberskyline.com/report/R5J1L7YN0BP8">
               <img src="https://www.alamancecc.edu/computer-information-technology-department-site/files/2020/02/ncl-logo.png"></img> 
@@ -57,73 +65,83 @@ export default function Home() {
           </div>  
       </div>
       </container>
+      
+      
+
+
+
 
 
 
       <container>
-      <div class="card">
+        <div class="card" id="c2">
           <div class="limg">
             <a href="https://cyberskyline.com/report/86KN6BY4P0E2">
                 <img src="https://www.alamancecc.edu/computer-information-technology-department-site/files/2020/02/ncl-logo.png"></img>   
             </a>
         </div>
+
           <div class="cleft">
             <h1>NCL Fall 2022</h1>
             <h2>Team Game</h2>
-            <h3>Ranked 1159th place</h3>
+            <h3>Ranked 258th place</h3>
           </div>
                 
         </div>
       </container>
 
-
-
-      <container class="">
-        
-        
-        
-        
-
-        <div class="projectcon">
+      <container>
+        <div class="card" id="c3">
+          <div class="limg" id="c3i">
+            <a href="https://www.freecodecamp.org/certification/joeulam/responsive-web-design">
+              <img src="https://design-style-guide.freecodecamp.org/downloads/fcc_secondary_small.svg"></img> 
+            </a>
+          </div>
           
-
-          
-          <a href="https://www.freecodecamp.org/certification/joeulam/responsive-web-design">
-          <div class="ncl">
-            <img src="https://design-style-guide.freecodecamp.org/downloads/fcc_secondary_small.svg"></img> 
+          <div class="cleft" id="c3w">
               <h1>Reponsive Web Design</h1>
               <h2>Certificate</h2>
               <h3>Freecodecamp</h3>
           </div>
-          </a>
+        </div>
+      </container>
 
-          <a href="https://www.credly.com/badges/aa30c2a7-1819-47bf-a099-bb72ec1b97cf?source=linked_in_profile">
-          <div class="ncl">
-            <img src="https://images.credly.com/size/680x680/images/73e4a58b-a8ef-41a3-a7db-9183dd269882/image.png"></img> 
+      
+      
+      <container>
+        <div class="card" id="c1">
+          <div class="limg">
+            <a href="https://www.credly.com/badges/aa30c2a7-1819-47bf-a099-bb72ec1b97cf?source=linked_in_profile">
+              <img src="https://images.credly.com/size/680x680/images/73e4a58b-a8ef-41a3-a7db-9183dd269882/image.png"></img> 
+            </a>
+          </div>
+          
+        <div class="cleft">
               <h1>Cloud Foundations</h1>
               <h2>Academy Graduate</h2>
               <h3>AWS</h3>
           </div>
-          </a>
-
         </div>
       </container>
 
-      <container class="">
-        Im currently working on
-        <div class="projectcon">
-        <div class="ncl">
-          <h1>Moogan</h1>
-          <h2>2D parkour game</h2>
-          <h3>Using Unity</h3>
-        </div>
-        <div class="ncl">
-          <h1>Joey's profolio</h1>
-          <h2>Contains all of my projects</h2>
-          <h3>Using nextjs and css</h3>
-        </div>
-      </div>
 
+
+
+
+      <container class="center">
+        <h2 class="down">Im currently working on</h2>
+        <div class="projectcon">
+          <div class="ncl">
+            <h1>Moogan</h1>
+            <h2>2D parkour game</h2>
+            <h3>Using Unity</h3>
+          </div>
+          <div class="ncl">
+            <h1>Joey's profolio</h1>
+            <h2>Contains all of my projects</h2>
+            <h3>Using nextjs and css</h3>
+          </div>
+        </div>
       </container>
       
 

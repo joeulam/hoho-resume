@@ -2,11 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
   }
 
 .namecard{
-  margin-left: -5vh;
-  margin-top: -15vh;
+  color: #CED4DA;
 
 }
  
@@ -21,11 +21,10 @@ container{
   width: 100%;
   height: 100vh;
   scroll-snap-align: start;
+  color: #CED4DA;
 
 }
-.hide{
-  display: none;
-}
+
 .con1{
   display: flex;
   flex-direction: column;
@@ -33,18 +32,18 @@ container{
   justify-content: center;
   text-align: center;
   width: 100%;
-  height: 10vh;
+  height: 15vh;
   scroll-snap-align: start;
-  background-color: #22223B;
-  color: #969698;
+  background-color: #212529;
+  color: #DEE2E6;
 }
 .con1 p{
-  color: #969698;
+  color: #DEE2E6;
 
 }
 
 .con1 a{
-  color: #969698;
+  color: #DEE2E6;
 
 }
 .firstcard{
@@ -58,17 +57,14 @@ container{
 }
 
 .projectcon{
-  border: white;
-  border-style: solid;
   width: 65%;
-  height: 50%;
-  margin-top:5%;
-  box-sizing: border-box;
-  white-space: nowrap;
-  overflow: hidden;
-  overflow-x: scroll;
+  height: 30%;
+  margin: auto;
+  margin-top: 0%;
 }
-
+.down{
+  margin-top: 20vh;
+}
 
 .limg{
   width: 191px;
@@ -78,7 +74,9 @@ container{
 }
 
 .limg a img{
-  display: block;
+  display: inline-block;
+  vertical-align: middle;
+
 }
 .card{
   border: white;
@@ -99,24 +97,47 @@ container{
 
 .cleft{
   width: 60%;
-  display: block;
   display: inline-block;
-  vertical-align: top;
+  vertical-align: middle;
 }
+
+
+#c1{
+  margin-right: 50%;
+}
+
+#c2{
+  margin-left: 75%;
+}
+
+#c3{
+  margin: auto;
+}
+
+#c3i{
+  margin-top: 40px;
+}
+
+#c3w{
+  margin-left: 15px;
+}
+
+
 
 .ncl{
   width: 30%;
   border: white;
-  height:65%;
+  height:95%;
   border-style: solid;
   transition: transform .5s;
   flex-direction: row;
   display:inline-block;
   word-wrap: break-word;
   align-items: center;
-  margin-top: 8%;
-  margin-left: 1.5%;
+  margin-top: 10%;
+  margin-left: 3%;
   font-size: smaller;
+  vertical-align: middle;
 }
 a{
   text-decoration: none;
@@ -136,6 +157,11 @@ a{
 }
 
 
+
+
+
+
+
 html{
     scroll-snap-type: y mandatory;
     position: relative;
@@ -146,10 +172,9 @@ html{
     width: 100%;
     height: 100%;
 
-    
+    background-color: #343A40;
 
-    background: rgb(16,0,43);
-    background: linear-gradient(0deg, rgba(16,0,43,1) 0%, rgba(36,0,70,1) 16%, rgba(60,9,108,1) 30%, rgba(90,24,154,1) 46%, rgba(123,44,191,1) 62%, rgba(157,78,221,1) 77%, rgba(199,125,255,1) 87%, rgba(224,170,255,1) 100%);    animation: fadein 1s;
+    animation: fadein 1s;
    
    
    
@@ -175,27 +200,16 @@ html{
 }
 
 
-/*Scroll Bar*/
 
-/* width */
 ::-webkit-scrollbar {
-    width: 10px;
-    height: 10px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    display: none;  
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: rgb(70, 70, 70); 
-    border-radius: 10px;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #696969; 
-  }
+  display: none;
+}
 
+
+#svg1{
+  
+}
+
+#line1{
+
+}
