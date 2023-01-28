@@ -5,9 +5,7 @@ export default function Home() {
   return (
     
     <div class="homediv">
-      <style>
-        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
-      </style>
+      
 
 
 
@@ -66,9 +64,6 @@ export default function Home() {
       </div>
       </container>
       
-      
-
-
 
 
 
@@ -162,17 +157,4 @@ export default function Home() {
     
   
 }
-if (typeof window !== "undefined") {
 
-const mouseWheel = document.querySelector('.projectcon');
-
-  mouseWheel.addEventListener('wheel', function(e) {
-      const race = 12; // How many pixels to scroll
-  
-      if (e.deltaY > 0) // Scroll right
-          mouseWheel.scrollLeft += race;
-      else // Scroll left
-          mouseWheel.scrollLeft -= race;
-      e.preventDefault();
-  });
-}
